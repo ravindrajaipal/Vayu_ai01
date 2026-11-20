@@ -1,0 +1,15 @@
+{
+  "name": "vayuai-urban-air-assistant",
+  "version": "2.1.0",
+  "private": true,
+  "description": "VayuAI — Urban Air Quality & Winter Smog Intelligence (Zero-API-Key Edition)",
+  "scripts": {
+    "test:unit": "python3 tests/test_suite.py",
+    "test:e2e": "playwright test",
+    "test:e2e:mobile": "playwright test --project=\"Mobile Chrome (Android)\"",
+    "test:e2e:ui": "playwright test --ui"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.0"
+  }
+}
